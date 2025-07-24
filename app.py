@@ -46,7 +46,7 @@ st.markdown(
 )
 
     # UI columns for the controls
-    col1, col2, col3, col4 = st.columns([2, 2, 2, 3])
+col1, col2, col3, col4 = st.columns([2, 2, 2, 3])
 
     with col1:
         selected_length = st.selectbox("Length", options=length_options)
