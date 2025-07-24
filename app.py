@@ -18,7 +18,7 @@ fs = FewShotPosts()  # Load data once to get tags if needed
 
 
 def main():
-    st.subheader("GEN AI Email Generator")
+    st.subheader("Intelligent Email Writing Assistant")
 
     # UI columns for the controls
     col1, col2, col3, col4 = st.columns([2, 2, 2, 3])
