@@ -18,7 +18,32 @@ fs = FewShotPosts()  # Load data once to get tags if needed
 
 
 def main():
-    st.subheader("Intelligent Email Writing Assistant")
+    st.markdown(
+    """
+    <h2 style="
+        margin-top: 40px;
+        font-family: 'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #4B4B4B;">
+        Intelligent Email Writing Assistant
+    </h2>
+    """,
+    unsafe_allow_html=True,
+)
+st.markdown(
+    """
+    <p style="
+        font-family: 'Arial', sans-serif;
+        font-size: 1.1rem;
+        color: #666666;
+        margin-bottom: 20px;
+        line-height: 1.5;">
+        Let AI help you write professional and engaging emails within seconds, reducing your stress and improving productivity.
+    </p>
+    """,
+    unsafe_allow_html=True,
+)
 
     # UI columns for the controls
     col1, col2, col3, col4 = st.columns([2, 2, 2, 3])
