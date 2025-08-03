@@ -39,7 +39,7 @@ def main():
         color: #666666;
         margin-bottom: 20px;
         line-height: 1.5;">
-       Hii, Let AI help you write professional and engaging emails within seconds, reducing your stress and improving productivity.
+     Hi! Let AI help you craft professional and engaging emails in seconds, reducing your stress and boosting your productivity.
     </p>
     """,
     unsafe_allow_html=True,
