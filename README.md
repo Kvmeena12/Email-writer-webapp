@@ -1,13 +1,13 @@
-# LLM_WEB
+# Email Writer
 
-**LLM_WEB** is an intelligent, customizable AI-powered assistant designed to help you write professional, engaging emails in seconds. Built using Streamlit, Python, and the Meta-Llama LLM (via Groq), this tool streamlines email composition for various lengths, languages, and topics, greatly reducing stress and boosting productivity.
+**Email Writer** is an intelligent, customizable AI-powered assistant designed to help you write professional, engaging emails in seconds. Built using Streamlit, Python, and the Meta-Llama LLM (via Groq), this tool streamlines email composition for various lengths, languages, and topics, greatly reducing stress and boosting productivity.
+
 
 ---
 
 ## 🌟 Live Demo
 
 > **[Live App](https://emailwriters.streamlit.app/)**  
-> *(Note: Replace this link with your actual Streamlit Cloud or deployment URL if different.)*
 
 ---
 
