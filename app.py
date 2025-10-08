@@ -5,13 +5,7 @@ from few_shot import FewShotPosts
 
 length_options = ["Short", "Medium", "Long"]
 language_options = [
-    "English", "Hinglish", "Bengali", "Hindi", "Spanish", "French", "German", "Chinese (Simplified)", 
-    "Chinese (Traditional)", "Russian", "Arabic", "Portuguese", "Urdu", "Japanese", "Korean", 
-    "Italian", "Dutch", "Turkish", "Vietnamese", "Polish", "Swedish", "Norwegian", "Greek", 
-    "Hebrew", "Thai", "Indonesian", "Malay", "Czech", "Hungarian", "Romanian", 
-    "Danish", "Finnish", "Bulgarian", "Serbian", "Croatian", "Slovak", "Lithuanian", 
-    "Latvian", "Estonian", "Filipino", "Tamil", "Telugu", "Kannada", "Marathi", "Gujarati", 
-    "Punjabi", "Persian", "Swahili", "Zulu", "Amharic", "Mongolian", "Albanian","Odia","Bhojpuri"
+    "English", "Hinglish"
 ]
 
 fs = FewShotPosts()  # Load data once to get tags if needed
