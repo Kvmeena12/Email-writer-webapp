@@ -5,11 +5,11 @@ few_shot = FewShotPosts()
 
 def get_length_str(length):
     if length == "Short":
-        return "1 to 5 lines"
+        return "1 to 7 lines"
     elif length == "Medium":
-        return "6 to 10 lines"
+        return "6 to 12 lines" 
     elif length == "Long":
-        return "11 to 15 lines"
+        return "11 to 20 lines"
     else:
         return "6 to 10 lines"
 
