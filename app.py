@@ -5,7 +5,7 @@ from few_shot import FewShotPosts
 
 length_options = ["Short", "Medium", "Long"]
 language_options = [
-    "English", "Hinglish"
+    "English", "Hinglish","Hindi","Bengali"
 ]
 
 fs = FewShotPosts()  # Load data once to get tags if needed
