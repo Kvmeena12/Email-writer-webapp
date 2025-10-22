@@ -130,3 +130,27 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 .idea/
+
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Streamlit secrets (do not commit)
+.streamlit/secrets.toml
+
+# Byte-compiled / distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
